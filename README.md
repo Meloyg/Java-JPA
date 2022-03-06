@@ -15,3 +15,11 @@ $ psql postgres
 ```aidl
 GRANT ALL PRIVILEGES ON DATABASE "<database name>" TO <usr>;
 ```
+
+### Run the build
+1. Maven clean
+2. Maven install
+```aidl
+cd target
+java -jar demo-0.0.1-SNAPSHOT.jar --server.port=<port>
+```

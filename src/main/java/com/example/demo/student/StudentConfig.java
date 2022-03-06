@@ -24,7 +24,7 @@ public class StudentConfig {
             Student li = new Student(
                     "Li",
                     LocalDate.of(2000, Month.MAY, 25),
-                    "meloguan123@gmail.com"
+                    "3@gmail.com"
             );
 
             studentRepository.saveAll(
